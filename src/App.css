@@ -1,15 +1,43 @@
 * {
-  border: 2px solid black;
+  color: white;
 }
 body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1C1C1C;
 
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 550px;
   height: 868px;
   background-color: #23252C;
+}
+
+header {
+  border: 3px solid yellow;
+  width: 317px;
+}
+
+.header--front-image {
+  width: 317px;
+  height: 317px;
+  object-fit:cover;
+}
+
+main {
+  border: 3px solid yellow;
+  width: 317px;
+  height: 399px;
+}
+
+footer {
+  border: 3px solid yellow;
+  width: 317px;
+  height: 64px;
 }
