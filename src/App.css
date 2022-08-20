@@ -8,10 +8,6 @@
   background-color: #23252C;
 }
 
-header {
-  /* border: 3px solid yellow; */
-}
-
 .header--front-image {
   width: 317px;
   height: 317px;
@@ -24,33 +20,59 @@ main {
   height: 399px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  background-color: #1A1B21;
 }
 
+.main--introduction {
+  width: 247px;
+}
+
+
 .main--name {
+  margin-bottom: 5px;
   font-size: 25px;
   text-align: center;
 }
 
 .main--title {
+  margin-bottom: 15px;
   font-size: 13px;
   color: #F3BF99;
   text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
 
 .button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  border: 1px solid yellow;
+  gap: 6px;
+  margin-bottom: 30px;
   width: 115px;
   height: 34px;
   border-radius: 6px;
   text-decoration: none;
   text-align: center;
   font-size: 14px;
+  font-weight: 700;
+}
+
+.main--mail {
+  background-color: #FFF;
+  color: #1E1F26;
+}
+.main--mail > svg {
+  fill: #1E1F26;
+}
+
+.main--linkedin {
+  background-color: #5093E2;
 }
 .button-icons {
   font-size: 16px;
@@ -58,6 +80,21 @@ main {
 .main--description {
   width: 246px;
   height: 201px;
+}
+.main--description > h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.main--interestsPara {
+  font-size: 11px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+
+.main--interestsPara:first-of-type {
+  margin-bottom: 20px;
 }
 
 footer {
