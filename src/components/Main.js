@@ -24,7 +24,7 @@ export default function Main() {
             </section>
             <section className="main--description">
                 <h4>About</h4>
-                <p className="main--interestsPara">Veterinary diagnostician with 3+ years of experience. I have been interested in IT industry for several years. My goal is to develop my career in this branch. </p>
+                <p className="main--interestsPara">Veterinary diagnostician and Team leader with 3+ years of experience. I have been interested in IT industry for several years. My goal is to develop my career in this branch. </p>
                 <h4>Interests</h4>
                 <p className="main--interestsPara">Programming. Web development. Database. PC building. Veterinary diagnostics. New technology. Mountain hike.</p>
             </section>
